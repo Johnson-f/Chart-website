@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+}
+img {
+    max-width: 100%;
+    height: auto;
+  }
+  img:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
+    opacity: 0.9;
+  }
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Makes it a circle */
+    border: 3px solid white;
+    object-fit: cover;
+}    
+h1 {
+    text-align: center;
+}
