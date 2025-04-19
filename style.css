@@ -2,6 +2,9 @@ body {
     background-color: rgba(0, 0, 0, 0.442);
     color: white;
     opacity: 1;
+    background-image: url(peter-thomas-FbYZAV_0VuU-unsplash.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 img {
     max-width: 100%;
@@ -25,6 +28,7 @@ h1 {
 P {
     padding-left: 10px;
     margin-left: 10px;
+    font-weight: 600;
   }
 .spaced-image {
     padding-left: 10px;
@@ -39,4 +43,16 @@ h2 {
 .image-row img {
     width: 500px;
     height: 300px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: white;
+}
+th, td {
+    background-color: black;
+    padding: 15px;
+}
+th {
+    text-align: center;
 }
